@@ -19,5 +19,15 @@
 	<classpathentry kind="lib" path="/home/antonio/Documentos/bibliotecas_java/javax.servlet-api-4.0.0.jar"/>
 	<classpathentry kind="lib" path="/home/antonio/Documentos/bibliotecas_java/jsf-api-2.2.16.jar"/>
 	<classpathentry kind="lib" path="/home/antonio/Documentos/bibliotecas_java/jstl-api-1.2.jar"/>
+	<classpathentry kind="lib" path="/home/antonio/Documentos/bibliotecas_java/jpa-hibernate/antlr-2.7.7.jar"/>
+	<classpathentry kind="lib" path="/home/antonio/Documentos/bibliotecas_java/jpa-hibernate/classmate-1.3.4.jar"/>
+	<classpathentry kind="lib" path="/home/antonio/Documentos/bibliotecas_java/jpa-hibernate/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="/home/antonio/Documentos/bibliotecas_java/jpa-hibernate/hibernate-commons-annotations-5.0.2.Final.jar"/>
+	<classpathentry kind="lib" path="/home/antonio/Documentos/bibliotecas_java/jpa-hibernate/hibernate-core-5.2.13.Final.jar"/>
+	<classpathentry kind="lib" path="/home/antonio/Documentos/bibliotecas_java/jpa-hibernate/hibernate-entitymanager-5.2.13.Final.jar"/>
+	<classpathentry kind="lib" path="/home/antonio/Documentos/bibliotecas_java/jpa-hibernate/hibernate-jpa-2.1-api-1.0.2.Final.jar"/>
+	<classpathentry kind="lib" path="/home/antonio/Documentos/bibliotecas_java/jpa-hibernate/jandex-2.0.4.Final.jar"/>
+	<classpathentry kind="lib" path="/home/antonio/Documentos/bibliotecas_java/jpa-hibernate/javassist-3.22.0-GA.jar"/>
+	<classpathentry kind="lib" path="/home/antonio/Documentos/bibliotecas_java/jpa-hibernate/jboss-logging-3.3.2.Final.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
