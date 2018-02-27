@@ -29,5 +29,6 @@
 	<classpathentry kind="lib" path="/home/antonio/Documentos/bibliotecas_java/jpa-hibernate/jandex-2.0.4.Final.jar"/>
 	<classpathentry kind="lib" path="/home/antonio/Documentos/bibliotecas_java/jpa-hibernate/javassist-3.22.0-GA.jar"/>
 	<classpathentry kind="lib" path="/home/antonio/Documentos/bibliotecas_java/jpa-hibernate/jboss-logging-3.3.2.Final.jar"/>
+	<classpathentry kind="lib" path="/home/antonio/Documentos/bibliotecas_java/jpa-hibernate/mysql-connector-java-5.1.45.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
