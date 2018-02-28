@@ -21,7 +21,7 @@ public class Cidade implements Serializable{
 	
 	@Column(name = "nome_cidade", nullable = false, length = 50)
 	private String cidade;
-	@Column(name = "nome_estado", nullable = false, length = 2)
+	@Column(name = "sigla_estado", nullable = false, length = 2)
 	private String estado;
 	public int getId() {
 		return id;
