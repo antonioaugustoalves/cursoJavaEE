@@ -7,11 +7,35 @@
  
      <h:head>
  		<title>Projeto com primefaces</title>
+ 		<h:outputStylesheet library="css" name="sistema.css"/>
+ 		<link rel="stylesheet" type = "text/css" media = "screen" href = "css/sistema.css"/> 
      </h:head>
  
      <h:body>
  		<h:form>
  		
+ 		<div id = "header">
+ 			<h1>Sistema primefaces</h1>
+ 		</div>
+ 			<p:menubar>
+ 				<p:submenu label="Cadastro">
+ 					<p:menuitem value="Cliente"/>
+ 					<p:menuitem value="Fornecedor"/>
+ 					<p:menuitem value="Vendedor"/>
+ 					<p:menuitem value="Usário"/>
+ 				</p:submenu>
+ 				
+ 				<p:submenu label="Estoque">
+ 					<p:menuitem value="Categorias"/>
+ 					<p:menuitem value="Produtos"/>
+ 				</p:submenu>
+ 				
+ 				<p:submenu label="Financeiro">
+ 					<p:menuitem value="Caixa"/>
+ 					<p:menuitem value="Movimento"/>
+ 					<p:menuitem value="Pagar e receber"/>
+ 				</p:submenu>
+ 			</p:menubar>
  		</h:form>
  
      </h:body>
