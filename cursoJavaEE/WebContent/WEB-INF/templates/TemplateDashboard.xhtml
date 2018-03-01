@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<!--  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd" -->
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:p="http://primefaces.org/ui">
+	
+	
+	<h:head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+		<title><ui:insert name="titulo">Sistema Comercial JavaEE</ui:insert></title>
+		<h:outputStylesheet library="css" name="sistema.css"/>
+	</h:head>
+	
+	<h:body>
+		<header>
+			<div id = "logo">
+				<h:link>
+					<h:graphicImage library="images" name="cifrao.png" styleClass="img-left"/>
+				</h:link>
+			</div>
+			<div id = "titulo">
+				<h1>Sistema Comercial Primefaces</h1>
+			</div>
+			
+			<h:form>
+				<p:menubar styleClass="menu-sistema">
+					<p:submenu label="Cadastro">
+						<p:menuitem value="Novo Cliente"/>
+						<p:menuitem value="Novo Fornecedor"/>
+						<p:menuitem value="Novo Novo Vendedor"/>
+						<p:menuitem value="Novo Usuario"/>
+					</p:submenu>
+					
+					<p:submenu label="Estoque">
+						<p:menuitem value="Nova Categoria"/>
+						<p:menuitem value="Novo Produto"/>
+					</p:submenu>
+					
+					<p:submenu label="Movimento">
+						<p:menuitem value="Fluxo de caixa"/>
+						<p:menuitem value="Efetuar compra e venda"/>
+						<p:menuitem value="Pagar e receber parcelas"/>
+					</p:submenu>
+					
+					<p:submenu label="Consultas">
+						<p:menuitem value="Consulta no estoque"/>
+						<p:menuitem value="Consulta de clientes"/>
+						<p:menuitem value="Consulta de movimento"/>
+					</p:submenu>
+					
+					<p:submenu label="Relatórios">
+						<p:menuitem value="Relatório de estoque"/>
+						<p:menuitem value="Relatório de clientes"/>
+						<p:menuitem value="Relatório de movimento"/>
+					</p:submenu>
+					
+					<p:menuitem value="Sair do sistema" url="http://www.google.com" target="_blank"/>
+				</p:menubar>
+			</h:form>
+		</header>
+		 <div id = "conteudo">
+		 	<ui:insert name = "corpo"/>
+		 </div>
+		 
+		 <footer id = "rodape">
+		 	<ui:insert name = "rodape"/>
+		 </footer>
+	</h:body>
+	
+</html>

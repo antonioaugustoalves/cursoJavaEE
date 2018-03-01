@@ -40,3 +40,9 @@ body{
 	text-align:center;
 	padding:15px;
 }
+
+.rodape {
+	width:100%;
+	display:block;
+	height:auto;
+}
